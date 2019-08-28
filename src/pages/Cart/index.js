@@ -40,12 +40,7 @@ export default function Cart() {
                                         color="#7159c1"
                                     />
                                 </button>
-                                <input
-                                    type="number"
-                                    readOnly
-                                    value={1}
-                                    textAlign="center"
-                                />
+                                <input type="number" readOnly value={1} />
                                 <button type="button">
                                     <MdAddCircleOutline
                                         size={20}
